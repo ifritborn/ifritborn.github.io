@@ -1,4 +1,134 @@
+/* main container */
+
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
+.white_text {
+    color: white;
+}
+
+.silver_text {
+    color: #A7A2A9;
+}
+/* header section content */
+
+.header {
+    margin: 0;
+    padding: 1vh;
+    background-color: #091E05;
+    
+}
+
+.portfolio_pic{
+    background-color: rgb(162, 160, 160);
+    border: solid black 2px;
+    border-radius: 25%;
+}
+
+.nav {
+    
+    background-color: #1B264F;
+    
+    
+}
+
+ul {
+    margin: 0;
+    padding: 1vw;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vw;
+    background-color: #A7A2A9;
+    border-radius: 10px;
+    color: black;
+}
+a:hover {
+    transform: all .1s ease-in-out;
+    background-color: #E63946;
+    color: white;
+}
+/* portfolio section content */
+
+.content {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2B4570;
+}
+.portfolio_block {
+    width: 90vw;
+    margin: 2vw;
+    transition: all .1s ease-in-out;
+    background-color: #A7A2A9;
+    border-radius: 10px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio_block:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 5px;
+}
+
+.portfolio_img {
+    width: 25vw;
+    height: 40vh;
+    border: solid black 3px;
+}
+
+.text_box {
+    margin: 1vw;
+    width: 25vw;
+    font-size: 1.25em;
+}
+
+/* about section content */
+
+.about {
+    padding: 2vw;
+    background-color: #E63946;
+    display: flex;
+    font-size: 1.25em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.about_text {
+    font-size: 1.25em;
+    width: 40vw;
+}
+
+/* contact section content*/
+.contact {
+    padding: 2vw;
+    background-color: #1B264F;
+    
+}
+
+
+/* footer section content */
+.footer {
+    padding: 2vw;
+    background-color: #091E05 ;
+    
+}
+
+/* color pallet: phthalo green: #091E05, Imperial Red: #E63946, Silver Metallic: #A7A2A9, Dark Cornflower Blue: #2B4570, Space Cadet Blue: #1B264F */

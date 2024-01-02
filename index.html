@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="instructions">
+        <h1>Wordle Bot</h1>
+        <p>Wordle Bot is here to solve a wordle challenge!
+        Choose a 5 letter word you want Wordle Bot to solve.
+        Push the "Start Game" button and Wordle Bot will make its first guess!
+        If the letter is in the correct position click the letter until the box turns green.
+        If the letter is in the word but not in the correct position click the letter until the box turns yellow
+        Push the "Next Guess" Button and it will make another guess.
+        Repeat the steps to tell Wordle Bot if the letters are in the word and in the right place.
+        Wordle Bot will solve your challenge within 10 turns!</p>
+
+    </div>
+    
+    <div id="guess-pannel">
+        
+        <h2>Current Guess</h2>
+        <h2 id="turn">1</h2>
+        <button id="startGame">Start Game</button>
+        <div id="word-container">
+            <div id="box1" class="bisque"></div>
+            <div id="box2" class="bisque"></div>
+            <div id="box3" class="bisque"></div>
+            <div id="box4" class="bisque"></div>
+            <div id="box5" class="bisque"></div>
+        </div>
+        <button id="nextGuess">Next Guess</button>
+    </div>
+
+    <div id="guessed-words">
+        <h2>Guessed Words</h2>
+        
+        <div id="guessBox">
+            <ul id="list">
+
+            </ul>
+        </div>
+        
+
+    </div>
+
+    <script src="/app.js"></script> 
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-color: slategray;
+    text-align: center;
+}
+
+#instructions{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#guessed-words{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#guess-pannel{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    
+}
+#word-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    
+}
+
+.bisque{
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.greenHover{
+    background-color: green;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.yellowHover{
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.greenClick{
+    background-color: green;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.yellowClick{
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+}
+
+li{
+    list-style-type: none;
+}
